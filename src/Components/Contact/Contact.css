@@ -1,0 +1,69 @@
+.deliver {
+  background: #fae9e9;
+}
+
+.Infor {
+  background-color: gray;
+}
+
+.radio-group {
+  margin-bottom: 15px;
+}
+
+.credit-card-info {
+  margin-top: 15px;
+}
+
+.expiration-date select {
+  margin-right: 5px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.return {
+  background-color: gray;
+}
+
+/* Media query for mobile screens */
+@media (max-width: 767px) {
+  .deliver {
+    background: #fae9e9; /* Keeping the same background color */
+  }
+
+  .Infor {
+    background-color: gray; /* Keeping the same background color */
+  }
+
+  .radio-group {
+    margin-bottom: 10px; /* Smaller margin for radio groups */
+  }
+
+  .credit-card-info {
+    margin-top: 10px; /* Smaller top margin for credit card info */
+  }
+
+  .expiration-date select {
+    margin-right: 3px; /* Adjusted margin for expiration date selects */
+  }
+
+  button {
+    margin-top: 15px; /* Reduced top margin for buttons */
+    padding: 8px 16px; /* Smaller padding for buttons */
+  }
+
+  .return {
+    background-color: gray; /* Keeping the same background color */
+  }
+}

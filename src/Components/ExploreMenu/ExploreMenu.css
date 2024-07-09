@@ -1,0 +1,246 @@
+.gene {
+  margin-top: 150px;
+}
+.still {
+  font-size: large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 200;
+}
+.general {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: gray;
+}
+
+.product-item {
+  flex: 1 1 300px;
+  max-width: 300px;
+  text-align: center;
+  margin: 10px;
+}
+
+.product-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  margin-top: 20px;
+  background-color: white;
+  color: rgb(157, 72, 72);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 950px;
+}
+
+button img {
+  margin-left: 10px;
+  width: 16px;
+  height: 16px;
+}
+
+.like {
+  width: 23.62px;
+  height: 21.16px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 20px;
+}
+.amount {
+  color: black;
+}
+
+.general1 {
+  margin-top: 150px;
+}
+.flats {
+  font-size: large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 200;
+}
+.general {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 250px);
+  justify-content: center;
+  /* display: flex;
+  flex-wrap: wrap; */
+  justify-content: space-between;
+  /* justify-content: center; */
+  gap: 10px;
+  color: gray;
+  /* max-width: 100vw; */
+}
+
+.product-item {
+  flex: 1;
+  /* max-width: 250px; */
+  text-align: center;
+}
+.image-wrapper {
+  max-height: 250px;
+  overflow-y: hidden;
+}
+/* .product-item > img {
+  display: block;
+  width: 100px;
+} */
+.product-desc {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.product-desc div {
+  display: flex;
+  justify-content: space-between;
+}
+.product-desc p {
+  text-align: left;
+}
+.product-item > img {
+  max-width: 200px;
+  height: 200px;
+  display: flex;
+  /* height: auto; */
+  object-fit: contain;
+}
+
+button {
+  margin-top: 20px;
+  background-color: white;
+  color: rgb(157, 72, 72);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 950px;
+}
+
+button img {
+  margin-left: 10px;
+  width: 16px;
+  height: 16px;
+}
+
+.likee {
+  width: 23.62px;
+  height: 21.16px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 20px;
+}
+.amountt {
+  color: black;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  overflow: hidden;
+  max-width: 100vw;
+}
+.conta {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  justify-content: space-around;
+  margin-top: 100px;
+  background-color: rgb(211, 155, 165);
+}
+.gene {
+  margin-top: 150px;
+}
+
+.still {
+  font-size: large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 200;
+}
+
+.general {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10px;
+  justify-content: center;
+  color: gray;
+}
+
+.product-item {
+  text-align: center;
+}
+
+.product-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-desc {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.product-desc div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-desc p {
+  text-align: left;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button {
+  background-color: white;
+  color: rgb(157, 72, 72);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button img {
+  margin-left: 10px;
+  width: 16px;
+  height: 16px;
+}
+
+@media (max-width: 767px) {
+  /* Adjustments for mobile screens */
+  .gene,
+  .general1 {
+    margin-top: 50px; /* Reduce margin top on smaller screens */
+  }
+
+  .general {
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(200px, 1fr)
+    ); /* Adjust column width for smaller screens */
+  }
+
+  .button-container {
+    padding-left: 0; /* Remove unnecessary padding-left */
+  }
+
+  button {
+    padding: 10px 15px; /* Adjust button padding for smaller screens */
+  }
+}

@@ -1,0 +1,145 @@
+.production-item {
+  flex: 1 1 300px;
+  max-width: 300px;
+  text-align: center;
+  margin: 10px;
+}
+.production-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.production-item {
+  flex: 1;
+  /* max-width: 250px; */
+  text-align: center;
+}
+.image-wrapper {
+  max-height: 250px;
+  overflow-y: hidden;
+}
+/* .product-item > img {
+  display: block;
+  width: 100px;
+} */
+.production-desc {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.production-desc div {
+  display: flex;
+  justify-content: space-between;
+}
+.production-desc p {
+  text-align: left;
+}
+.production-item > im {
+  max-width: 200px;
+  height: 200px;
+  display: flex;
+  /* height: auto; */
+  object-fit: contain;
+}
+
+.goods-item {
+  flex: 1 1 300px;
+  max-width: 300px;
+  text-align: center;
+  margin: 10px;
+}
+.goods-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.goods-item {
+  flex: 1;
+  /* max-width: 250px; */
+  text-align: center;
+}
+.image-wrapper {
+  max-height: 250px;
+  overflow-y: hidden;
+}
+/* .product-item > img {
+  display: block;
+  width: 100px;
+} */
+.goods-desc {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.goods-desc div {
+  display: flex;
+  justify-content: space-between;
+}
+.goods-desc p {
+  text-align: left;
+}
+.goods-item > im {
+  max-width: 200px;
+  height: 200px;
+  display: flex;
+  /* height: auto; */
+  object-fit: contain;
+}
+.backg {
+  width: 1260px;
+  height: 802%;
+  top: 138px;
+  left: 2px;
+  gap: 0px;
+  opacity: 0px;
+}
+.general {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: gray;
+  margin-top: 50px;
+}
+/* .shop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+} */
+
+/* .overlay {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  width: fit-content;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.all-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .text-container {
+    padding: 10px;
+  }
+
+  .text-container h2 {
+    font-size: 28px;
+  }
+
+  .text-container p {
+    font-size: 16px;
+  }
+} */

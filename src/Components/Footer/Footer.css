@@ -1,0 +1,76 @@
+.footer {
+  background-color: #333;
+  color: #fff;
+  /* padding: 20px; */
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 20px 40px;
+  padding-top: 50px;
+}
+
+.social-icons {
+  margin-bottom: 10px;
+  padding: 30px 0;
+}
+
+.social-icons a {
+  color: pink;
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+.email-sub {
+  display: flex;
+  gap: 0;
+  margin-top: 15px;
+}
+
+.email-sub input[type="text"] {
+  padding: 10px;
+  border-radius: 10px 0 0 10px;
+}
+.email-sub input {
+  outline: none;
+  border: none;
+}
+.email-sub input[type="button"] {
+  margin-left: -10px;
+  border-radius: 0 10px 10px 0;
+  padding-inline: 17px;
+  background-color: #f3cccc;
+}
+
+.copyright {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.name {
+  justify-content: center;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  list-style: disc !important;
+}
+
+.footer-links > li {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.footer-links div {
+  width: 5px;
+  height: 5px;
+  background-color: #fff;
+  border-radius: 100%;
+}
